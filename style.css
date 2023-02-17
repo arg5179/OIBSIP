@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ html {
+    scroll-behavior: smooth;
+  }
+ 
+ .navigation{
+     justify-content: center;
+     background-color: black;
+     color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     z-index: 1;
+ }
+ .nav-item{
+    margin-left: 2rem;
+ }
+ 
+ .navbar-brand > img{
+     height: 5rem;
+ }
+ 
+ 
+ 
+ /* .carousel */
+ 
+ .carousel-caption >img{
+    height: 10rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .carousel-caption{
+     top: 10%;
+ }
+ 
+ .carousel-caption  button{ color:white;
+    margin: 1rem;
+    padding: .5rem;
+    width: 10rem;
+    box-shadow: 5px 5px 0px 0px rgb(237 36 51 / 30%);}
+ 
+ 
+    /* features section*/
+ .features{
+     box-shadow: 0px 10px 30px 0px rgb(44 44 44 / 7%);
+ }
+ .features::before
+ {
+     content: " ";
+     position: absolute;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.2;
+     background: url(img/milad-fakurian-Tc_4PdN-Fq0-unsplash.jpg)no-repeat center center/cover;
+ }
+ .features  span{
+     display: block;
+     color: red;
+ }
+ 
+ 
+ .features .it{
+   
+    animation: drop 2s ease forwards;
+   
+ }
+ 
+ @keyframes drop {
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0);}
+    
+    
+ }
+ 
+ 
+ /* about section  */
+ #about{
+     margin-top: 7rem;
+ }
+  #about h2{
+     font-family: cursive;
+  }
+  #about span{
+     color: red;
+  }
+  #about img{
+     height:20rem;
+  }
+ 
+    /* special section */
+ 
+    #specialas  .card{
+       transition: transform 1s ease-in-out;
+    }
+    #specialas  .card:hover{
+       will-change: transform;
+      transform: perspective(1000px) rotateX(-4.80deg) rotateY(-10.23deg) scale3d(1.05, 1.05, 1.05);
+    }  
+ #specialas h2{
+    font-family: cursive;
+ }
+ #specialas span{
+    color: red;
+ }
+ .numberp{
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: transform .5s ease-in-out; 
+ }
+ .numberp> span {
+    display: block;
+    font-size: 2rem;
+ }
+ .numberp:hover{
+    transform :scale(1.1);
+    cursor: pointer;
+ }
+ 
+ 
+ 
+ /* menu section  */
+ #menu {
+    background: url(img/matt-palmer-WHJ1VaQpPsg-unsplash.jpg)no-repeat center center/cover;
+ }
+ #menu p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    /* padding: 1rem; */
+ }
+ 
+ #menu > h2 {
+    font-family: cursive;
+ }
+ #menu > h2 > span{
+    color: red;
+ }
+ #menu .container{
+    margin-top: 2rem;
+    
+ }
+ #menu .row{
+    padding: 0.4rem;
+ }
+ 
+ #menu .card{
+    background: transparent;
+    border: none;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+    box-shadow: 0px 0px 55px -25px rgba(209,247,255,1);   
+    border-radius: 20px;
+ 
+ }
+ #menu .card:hover{
+    will-change: transform;
+   transform: perspective(1000px) rotateX(4.80deg) rotateY(15.23deg) scale3d(1.05, 1.05, 1.05);
+ 
+ }
+ #menu .card p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+ }
+ #menu .image{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+ }
+ #menu .image img{
+    width: 12rem;
+    height: 12rem;
+ }
+ .image{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+ }
+ .image img{
+    width: 9rem;
+    height: 9rem;
+ }
+ 
+ 
+ #menu  > div > div> ol.carousel-indicators {
+    position: absolute;
+    bottom: -2rem;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ #menu > div > div>  ol.carousel-indicators li, ol.carousel-indicators li.active {
+    width: 1rem;
+    height: 1rem;
+    margin: 0;
+    border-radius: 50%;
+    border: 0;
+    background: transparent;
+ }
+ 
+ #menu  > div > div> ol.carousel-indicators li {
+    background: rgba(255,255,255,0.39);
+    margin-left: .5rem;
+    margin-right: .5rem;
+ }
+ 
+ #menu  > div > div> ol.carousel-indicators li.active {
+    background: yellow;
+ }
+ 
+  /* review section */
+ 
+  #review{
+     background-color: black;
+     color: white;
+  }
+ .card{
+    border:0ch;
+ }
+ 
+ 
+  /* reservation section  */
+  #reservation{
+     background: url(img/rohan-g--mwNJswDlXE-unsplash.jpg)no-repeat center center/cover;
+  }
+  #reservation h1{
+     color: white;
+     font-family: cursive;
+  }
+  #reservation span{
+     color:red;
+  }
+  #reservation img {
+     width: 100%;
+  }
+  #form{
+     background-color:white;
+     border-radius: 10px;
+  }
+  #form h4{
+     margin-top:1rem;
+     margin-bottom: 2rem;
+     font-family: cursive;
+     text-align: center;
+  }
+  #reservation input , select, textarea {
+     margin: 0.6rem;
+     padding: .3rem;
+ 
+  }
+ #reservation button {
+     color:white;
+     margin: 0.8rem;
+     padding: .3rem;
+     box-shadow: 5px 5px 0px 0px rgb(237 36 51 / 30%);
+ }
+ 
+ 
+ 
+ /* footer section  */
+ #footer{
+    background-color: black;
+    color: aliceblue;
+ }
+ #footer img{
+    height: 10rem;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* media queries */
+ @media screen and (max-width:800px){
+    .carousel-caption{
+       top: 0%;
+   }
+   .carousel-caption h5{
+ font-size: 1rem;
+   }
+    .carousel-caption >img{
+       padding: 1rem;
+       height: 7rem;
+       margin: 0;
+    }
+    .carousel-caption  button{
+       width: 7rem;
+       margin:0;
+       padding: 0;
+       font-size: 0.6rem;
+    }
+    .item{
+       flex-direction: column;
+    }
+    #about img{
+     display: none;
+    }
+    #reservation img {
+     display: none;
+    }
+    #footer >div> div{
+       flex-direction: column;
+       align-items: center;
+    }
+ }
