@@ -1,11 +1,11 @@
 # OIBSIP
 
 ## Landing Page
-[https://arg5179.github.io/oibsip_taskno/Landing-Page]
+[https://arg5179.github.io/Oasis-Infobyte/Landing-Page]
 
 ## Portfolio
-[https://arg5179.github.io/oibsip_taskno/Portfolio]
+[https://arg5179.github.io/Oasis-Infobyte/Portfolio]
 
 ## Temperature Converter
-[https://arg5179.github.io/oibsip_taskno/Temperature%20Converter]
+[https://arg5179.github.io/Oasis-Infobyte/Temperature%20Converter]
 
